@@ -5,7 +5,13 @@ local lsp_installer = require("nvim-lsp-installer")
 -- https://github.com/williamboman/nvim-lsp-installer#available-lsps
 local servers = {
    sumneko_lua = require("Yeahii.plugin.config.lsp.config.lua"), -- lua/lsp/config/lua.lua
-   pyright = require("Yeahii.plugin.config.lsp.config.pyright")
+   pyright = require("Yeahii.plugin.config.lsp.config.pyright"),
+	 rust_analyzer = {},
+	 clangd = {},
+	 jdtls = {}
+
+
+--	 clangd = require("Yeahii.plugin.config.lsp.config.clangd")
 }
 
 -- 自动安装 Language Servers

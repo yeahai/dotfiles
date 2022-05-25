@@ -10,8 +10,9 @@ map.set('','k','i')
 map.set('','l','u')
 map.set('','K','I')
 map.set('','U','5k')
-map.set('','e','5j')
+map.set('','E','5j')
 
+vim.o.clipboard ="unnamedplus"
 
 --map.set("n","<Left>","<Cmd>vertical resize -1<CR>")
 --map.set("n","<Right>","<Cmd>vertical resize +1<CR>")

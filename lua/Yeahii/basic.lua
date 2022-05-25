@@ -4,7 +4,7 @@ local bo = vim.bo
 local wo = vim.wo
 
 -- 功能key
-g.mapleader = " "
+--g.mapleader = " "
 
 -- utf8
 g.encoding = "UTF-8"

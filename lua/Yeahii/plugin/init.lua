@@ -26,6 +26,20 @@ return require('packer').startup(function(use)
 			as = "catppuccin",
 			config = conf "theme",
 	})
+	use "lervag/vimtex"
+
+	--annotation
+	  use {
+    "numToStr/Comment.nvim",
+    config = function()
+      require("Comment").setup {
+        mappings = {
+          extra = false,
+        },
+      }
+    end,
+  }
+
 
 	-- neo-tree plugin
 	use {

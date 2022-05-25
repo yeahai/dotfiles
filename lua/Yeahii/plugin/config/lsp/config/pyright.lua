@@ -14,7 +14,7 @@ return {
         end
         -- local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
         -- 绑定快捷键
-        require("Yeahii.keymapping").mapLSP(buf_set_keymap)
+       -- require("Yeahii.keymapping").mapLSP(buf_set_keymap)
       end,
     })
   end,
